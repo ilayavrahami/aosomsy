@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+.series-list {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.series-list h2 {
+    color: #333;
+}
+
+.series-list p {
+    color: #666;
+    font-size: 18px;
+}
+
+.series-list a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+}
+
+.background-image {
+    background-image: url('WhatsApp\ Image\ 2024-04-09\ at\ 21.21.38.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    margin: 20px auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+#button{
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #1ED760;
+    height: 48px;
+    :hover{
+        transform: scale(1.04);
+        background-color: #21e065;
+    }
+
+}
+#button:hover {
+    background-color: #689F38; 
+    transform: scale(1.1); 
+}
