@@ -37,3 +37,11 @@ video {
     width: 300px;
     border-radius: 4px;
 }
+#header{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    box-sizing: border-box; 
+}
