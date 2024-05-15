@@ -1,0 +1,30 @@
+#header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#sponsorship h1{
+    color: red;
+}
+#img{
+    background-size: cover;
+    background-position: center;
+    height: 95%;
+    width: 95%;
+    margin: 20px auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
