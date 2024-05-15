@@ -13,5 +13,5 @@ function calculateDaysUntilNextBirthday() {
     const daysUntilNextBirthday = Math.round((birthdate.getTime() - today.getTime()) / oneDay);
 
     const resultElement = document.getElementById("result");
-    resultElement.textContent = `Days until your next birthday: ${daysUntilNextBirthday} days`;
+    resultElement.textContent = `ימים עד יום ההולדת הבא שלך: ${daysUntilNextBirthday} ימים`;
 }
