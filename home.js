@@ -4,3 +4,6 @@ function day(){
 function NextBirthday(){
     window.location.href = "NextBirthday.html";
 }
+function previousBirthday(){
+    window.location.href = "previousBirthday.html";
+}
